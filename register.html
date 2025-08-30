@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>註冊</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Noto+Sans+TC:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 </head>
+
 <body>
-    
+    <div class="page">
+        <div class="picBox">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/login/cover-3.png?raw=true"
+                alt="pic">
+        </div>
+        <div class="enter">
+            <h1 class="mb-10">歡迎加入 ZOBAA</h1>
+            <div class="loginBox">
+                <a href="#"><img class="loginIcon" src="/img/ic_google.png" alt="google">使用 Google 帳號登入</a>
+                <a href="#"><img class="loginIcon loginIconFb" src="/img/ic_facebook.png" alt="fb">使用 Facebook 帳號登入</a>
+                <a href="#"><img class="loginIcon loginIconApple" src="/img/ic_apple.png" alt="apple">使用 Apple 帳號登入</a>
+            </div>
+
+            <p class="fw-bold mb-4">或使用 ZOBAA 帳號登入</p>
+            <form action="register.html">
+                <label class="mb-2 colorNeutral80" for="email">
+                    <p>電子信箱 <span class="colorSemanticAlert100">*</span></p>
+                </label>
+                <input class="loginInput mb-4" type="email" name="email" id="email" placeholder="請輸入電子信箱">
+                <label class="mb-2 colorNeutral80" for="password">
+                    <p>密碼 <span class="colorSemanticAlert100">*</span></p>
+                </label>
+                <input class="loginInput mb-4" type="password" name="password" id="password" placeholder="請輸入密碼">
+                <label class="mb-2 colorNeutral80" for="password">
+                    <p>確認密碼 <span class="colorSemanticAlert100">*</span></p>
+                </label>
+                <input class="loginInput mb-4" type="password" name="password" id="password" placeholder="請再輸入一次密碼">
+
+
+                <button class="fw600 colorNeutral60 loginInput bgcolorNeutral mb-10 btn" type="submit">立即註冊</button>
+            </form>
+            <p class="fz14 mb-10">建立帳號即表示您同意我們的 <a class="d-inline-block text-decoration-underline colorNeutral80" href="#">服務條款 </a> 及 <a class="d-inline-block text-decoration-underline colorNeutral80" href="#">隱私權政策</a></p>
+            <p>已經有 ZOBAA 帳號嗎？<a class="ml-2 d-inline-block colorPrimary100 fw600 text-decoration-underline"
+                    href="login.html">立即登入</a></p>
+        </div>
+    </div>
 </body>
+
 </html>
