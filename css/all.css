@@ -88,6 +88,22 @@ a {
   margin-right: 8px;
 }
 
+.mr-8 {
+  margin-right: 32px;
+}
+
+.mb-8 {
+  margin-bottom: 32px;
+}
+
+.ml-4 {
+  margin-left: 16px;
+}
+
+.mr-4 {
+  margin-right: 16px;
+}
+
 .fz14 {
   font-size: 14px;
 }
@@ -211,6 +227,33 @@ h1 {
 }
 .containerp img {
   width: 100%;
+}
+
+.wrapf {
+  background-color: #000000;
+}
+
+footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.containerp .logowhite {
+  width: 270px;
+  height: 45px;
+}
+
+.iconList img {
+  width: 40px;
+  height: 40px;
+}
+
+.otherpage a {
+  color: #ffffff;
+}
+
+.copyright {
+  color: #D4D4D4;
 }
 
 @media (max-width: 999px) {
