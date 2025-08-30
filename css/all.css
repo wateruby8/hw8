@@ -84,6 +84,10 @@ a {
   margin-left: 8px;
 }
 
+.mr-2 {
+  margin-right: 8px;
+}
+
 .fz14 {
   font-size: 14px;
 }
@@ -143,6 +147,10 @@ h1 {
   text-align: center;
   border-radius: 12px;
   color: #4B4B4B;
+}
+.loginBox a:hover {
+  color: #ffffff;
+  background-color: #4A3830;
 }
 
 .loginIcon {
