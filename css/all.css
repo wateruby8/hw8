@@ -92,6 +92,11 @@ a {
   font-size: 14px;
 }
 
+.w32 {
+  width: 32px;
+  height: 32px;
+}
+
 .colorNeutral80 {
   color: #4B4B4B;
 }
@@ -186,6 +191,28 @@ h1 {
   background-color: #4A3830;
 }
 
+.form-control {
+  width: 400px;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.banner img {
+  border-radius: 24px;
+}
+
+.wrap {
+  background-color: #F4F4F4;
+}
+
+.containerp {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+.containerp img {
+  width: 100%;
+}
+
 @media (max-width: 999px) {
   .picBox {
     display: none;
@@ -194,5 +221,10 @@ h1 {
     padding: 24px;
     max-width: 604px;
     margin: 60px auto;
+  }
+  .containerp {
+    max-width: 999px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
 }/*# sourceMappingURL=all.css.map */
