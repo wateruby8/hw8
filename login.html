@@ -23,21 +23,36 @@
                 alt="pic">
         </div>
         <div class="enter">
-            <h1 class="mb-10">歡迎回來</h1>
-            <a href="#">使用 Google 帳號登入</a>
-            <a href="#">使用 Facebook 帳號登入</a>
-            <a href="#">使用 Apple 帳號登入</a>
-            <p>或使用 ZOBAA 帳號登入</p>
+            <h1 class="mb-10">歡迎回來 !</h1>
+            <div class="loginBox">
+                <a href="#"><img class="loginIcon" src="/img/ic_google.png" alt="google">使用 Google 帳號登入</a>
+                <a href="#"><img class="loginIcon loginIconFb" src="/img/ic_facebook.png" alt="fb">使用 Facebook 帳號登入</a>
+                <a href="#"><img class="loginIcon loginIconApple" src="/img/ic_apple.png" alt="apple">使用 Apple 帳號登入</a>
+            </div>
+
+            <p class="fw-bold mb-4">或使用 ZOBAA 帳號登入</p>
             <form action="login.html">
-                <label for="email">電子信箱 <span>*</span></label><br>
-                <input type="email" name="email" id="email" placeholder="請輸入電子信箱"><br>
-                <label for="password">密碼 <span>*</span></label><br>
-                <input type="password" name="password" id="password" placeholder="請輸入密碼">
-                <br>
-                <input type="checkbox" name="remember" id="remember" value="記住帳號">記住帳號<br>
-                <button type="submit">立即登入</button>
+                <label class="mb-2 colorNeutral80" for="email">
+                    <p>電子信箱 <span>*</span></p>
+                </label>
+                <input class="loginInput mb-4" type="email" name="email" id="email" placeholder="請輸入電子信箱">
+                <label class="mb-2 colorNeutral80" for="password">
+                    <p>密碼 <span>*</span></p>
+                </label>
+                <input class="loginInput mb-4" type="password" name="password" id="password" placeholder="請輸入密碼">
+                <div class="d-flex justify-content-between mb-10">
+                    <div class="remember d-flex ">
+                        <input type="checkbox" name="remember" id="remember" value="記住帳號">
+                        <p>記住帳號</p>
+                    </div>
+                    <a class="colorNeutral80" href="#">忘記密碼 ?</a>
+                </div>
+
+
+                <button class="fw600 colorNeutral60 loginInput bgcolorNeutral mb-10 btn" type="submit">立即登入</button>
             </form>
-            <p>沒有 ZOBAA 帳號嗎？<a href="register.html">立即註冊</a></p>
+            <p>沒有 ZOBAA 帳號嗎？<a class="d-inline-block colorPrimary100 fw600 text-decoration-underline"
+                    href="register.html">立即註冊</a></p>
         </div>
     </div>
 

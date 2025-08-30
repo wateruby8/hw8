@@ -2,17 +2,66 @@
     display: flex;
 }
 
-.picBox{
-    width: 600px;
+.picBox {
+    max-width: 600px;
     margin: 40px;
 }
 
-h1{
+h1 {
     font-weight: 700;
     font-size: 48px;
     line-height: 1.2;
 }
-.enter{
+
+.enter {
     width: 604px;
     margin: 151px auto;
+}
+
+.loginBox {
+    margin-bottom: 40px;
+
+    a {
+        position: relative;
+        padding: 16px;
+        border: 1px solid #ECECEC;
+        margin-bottom: 16px;
+        text-align: center;
+        border-radius: 12px;
+        color: #4B4B4B;
+    }
+}
+
+.loginIcon {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+.loginIconFb {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+.loginIconApple {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+.loginInput {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #ECECEC;
+    border-radius: 12px;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #4A3830;
+
 }

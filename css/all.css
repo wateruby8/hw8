@@ -72,12 +72,40 @@ a {
   margin-bottom: 40px;
 }
 
+.mb-2 {
+  margin-bottom: 8px;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+.colorNeutral80 {
+  color: #4B4B4B;
+}
+
+.bgcolorNeutral {
+  background-color: #ECECEC;
+}
+
+.colorNeutral60 {
+  color: #909090;
+}
+
+.fw600 {
+  font-weight: 600;
+}
+
+.colorPrimary100 {
+  color: #4A3830;
+}
+
 .page {
   display: flex;
 }
 
 .picBox {
-  width: 600px;
+  max-width: 600px;
   margin: 40px;
 }
 
@@ -90,4 +118,61 @@ h1 {
 .enter {
   width: 604px;
   margin: 151px auto;
+}
+
+.loginBox {
+  margin-bottom: 40px;
+}
+.loginBox a {
+  position: relative;
+  padding: 16px;
+  border: 1px solid #ECECEC;
+  margin-bottom: 16px;
+  text-align: center;
+  border-radius: 12px;
+  color: #4B4B4B;
+}
+
+.loginIcon {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.loginIconFb {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+.loginIconApple {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+.loginInput {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #ECECEC;
+  border-radius: 12px;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #4A3830;
+}
+
+@media (max-width: 999px) {
+  .picBox {
+    display: none;
+  }
+  .enter {
+    padding: 24px;
+    max-width: 604px;
+    margin: 60px auto;
+  }
 }/*# sourceMappingURL=all.css.map */
