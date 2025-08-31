@@ -9,10 +9,38 @@
         margin: 60px auto;
     }
 
-    .containerp{
+    .containerp {
         max-width: 999px;
         padding-left: 12px;
         padding-right: 12px;
     }
+
+    .containerp .logowhite {
+        width: 192px;
+        height: 32px;
+    }
+
+    .userSelect {
+        a {
+            text-align: center;
+        }
+
+    }
+    
+
+    .userAccount {
+        padding: 32px 16px 16px 16px;
+    }
+
+    .btnedit {      
+        justify-content: center;
+        left: 16px;
+        right: 16px;
+        bottom: 16px;
+    }
+    .last{
+        margin-bottom: 112px;
+    }
+
 
 }

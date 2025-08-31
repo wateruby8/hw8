@@ -10,6 +10,7 @@
 
 .wrap {
     background-color: #F4F4F4;
+    padding-bottom: 121px;
 }
 
 .containerp {
@@ -26,6 +27,81 @@
 
 }
 
+.userSelect {
+    padding: 16px 24px;
+    border-radius: 24px;
+    margin-bottom: 24px;
+
+    a {
+        color: #000000;
+        font-weight: 700;
+
+        &:hover{
+            border-bottom: 4px solid  #CBB6AF;
+        }
+    }
+
+}
+
+.userinfo {
+    margin-top: -80px;
+    margin-bottom: 80px;
+
+    h3 {
+        font-size: 24px;
+        line-height: 1.2;
+    }
+}
+
+.userinfo .usericon {
+
+    width: 160px;
+    height: 160px;
+}
+
+.userAccount {
+    border-radius: 24px;
+    padding: 64px 32px 128px 32px;
+    position: relative;
+
+    h1 {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+}
+
+.accountPage {
+    border-bottom: 1px solid #ECECEC;
+
+    a {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        color: #4A3830;
+
+        &:hover {
+            border-bottom: 4px solid#4A3830;
+            font-weight: 600;
+
+        }
+
+    }
+}
+
+
+
+.btnedit {
+    padding: 16px 32px;
+    border: 1px solid #4A3830;
+    border-radius: 12px;
+    font-weight: 600;
+    color: #4A3830;
+    background-color: #ffffff;
+    position: absolute;
+    right: 32px;
+    bottom: 32px;
+}
+
 footer {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -34,7 +110,6 @@ footer {
 .containerp .logowhite {
     width: 270px;
     height: 45px;
-
 }
 
 .iconList {
@@ -53,3 +128,7 @@ footer {
 .copyright {
     color: #D4D4D4;
 }
+
+// *{
+//     outline: 1px solid pink;
+// }
